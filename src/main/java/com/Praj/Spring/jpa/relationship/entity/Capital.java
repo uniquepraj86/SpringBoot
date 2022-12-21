@@ -16,8 +16,9 @@ public class Capital {
     private Long id;
 
     @Column(unique = true)
-    private String capital;
-
-
+    private String capitalName;
+    @OneToOne
+    @JoinColumn(name = "country_id")
+    private Country country;
 
 }
