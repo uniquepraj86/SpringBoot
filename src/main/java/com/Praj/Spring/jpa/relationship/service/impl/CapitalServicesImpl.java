@@ -29,6 +29,7 @@ public class CapitalServicesImpl implements CapitalServices {
         Map<String,Object>map = new HashMap<>();
         map.put(MESSAGE,"Capital Save Successfully");
         map.put(STATUS, HttpStatus.CREATED.value());
+        capitalRepository.save(capital);
         return map;
     }
 
