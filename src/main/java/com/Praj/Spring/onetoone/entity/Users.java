@@ -1,9 +1,9 @@
 package com.Praj.Spring.onetoone.entity;
 
-import jakarta.persistence.*;
+//import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
-
+import javax.persistence.*;
 @Entity
 @Getter
 @Setter
@@ -19,9 +19,4 @@ public class Users {
     private String last_name;
 
     private String password;
-
-//
-//    @OneToOne
-//    @JoinColumn(name = "user_profile_id")
-//    private User_Profile user_profile;
 }

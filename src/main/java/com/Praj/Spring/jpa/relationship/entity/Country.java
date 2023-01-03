@@ -1,9 +1,9 @@
 package com.Praj.Spring.jpa.relationship.entity;
 
-import jakarta.persistence.*;
+//import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
-
+import javax.persistence.*;
 @Getter
 @Setter
 @Entity
